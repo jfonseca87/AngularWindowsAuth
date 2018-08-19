@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <div class="row">
+    <div class="col-lg-12">
+      <button type="button" (click)="testAuthentication()">Authentication</button>
+      <pre style="border:solid 1px;min-height:21px;" [ngClass]="[authBack]">{{authRslt}}</pre>
+    </div>
+    <div class="col-lg-12">
+      <button type="button" (click)="testGetData()">Get Data</button>
+      <pre style="border:solid 1px;min-height:21px;" [ngClass]="[getBack]">{{getData}}</pre>
+    </div>
+    <div class="col-lg-12">
+      <button type="button" (click)="testPostData()">Post Data</button>
+      <pre style="border:solid 1px;min-height:21px;" [ngClass]="[postBack]">{{postData}}</pre>
+    </div>
+    <div class="col-lg-12">
+      <button type="button" (click)="testPutData()">Put Data</button>
+      <pre style="border:solid 1px;min-height:21px;" [ngClass]="[putBack]">{{putData}}</pre>
+    </div>
+    <div class="col-lg-12">
+      <button type="button" (click)="testDeleteData()">Delete Data</button>
+      <pre style="border:solid 1px;min-height:21px;" [ngClass]="[deleteBack]">{{deleteData}}</pre>
+    </div>
+  </div>
+</div>
